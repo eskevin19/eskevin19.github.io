@@ -24,6 +24,8 @@
   transition: 0.5s linear;
 }
 .header-decoration .logo__tittle .ene {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 48px;
   margin-right: 5px;
   margin-left: 5px;
   color: #D99F9A;
@@ -39,30 +41,16 @@
     margin-right: 0px;
     margin-left: 0px;
   }
-  25% {
-    color: #D99F9A;
-    margin-right: 2px;
-    margin-left: 2px;
-  }
   50% {
     color: #D99F9A;
     margin-right: 3px;
     margin-left: 3px;
-  }
-  75% {
-    color: #D99F9A;
-    margin-right: 4px;
-    margin-left: 4px;
   }
   100% {
     color: #D99F9A;
     margin-right: 5px;
     margin-left: 5px;
   }
-}
-.header-decoration .ene {
-  font-family: "Julius Sans One", sans-serif;
-  font-size: 48px;
 }
 .header-decoration .logo__under__tittle {
   font-family: "Sacramento", cursive;
