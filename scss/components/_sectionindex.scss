@@ -1,0 +1,5 @@
+@import '../base/listas';
+.section-decoration{
+    background-color: nth($color, 11);
+    font-size: nth($size, 4);
+}

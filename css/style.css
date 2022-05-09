@@ -1,0 +1,105 @@
+/* colores */
+/* 11 */
+/* fuentes */
+/* 7 */
+/*  */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Julius+Sans+One&family=Roboto+Condensed:ital,wght@1,300&family=Sacramento&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.header-decoration {
+  background-color: #8C6C5A;
+}
+.header-decoration a {
+  color: #D9BABA;
+  text-decoration: none;
+}
+.header-decoration .logo__tittle {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  transition: 0.5s linear;
+}
+.header-decoration .logo__tittle .ene {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #D99F9A;
+  animation-name: aislarene;
+  animation-duration: 2s;
+}
+.header-decoration .logo__tittle:hover .logo__under__tittle {
+  color: #D99F9A;
+}
+@keyframes aislarene {
+  0% {
+    color: #D99F9A;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  25% {
+    color: #D99F9A;
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+  50% {
+    color: #D99F9A;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  75% {
+    color: #D99F9A;
+    margin-right: 4px;
+    margin-left: 4px;
+  }
+  100% {
+    color: #D99F9A;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+.header-decoration .ene {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 48px;
+}
+.header-decoration .logo__under__tittle {
+  font-family: "Sacramento", cursive;
+  font-size: 36px;
+}
+
+nav a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 10px;
+  position: relative;
+}
+nav a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+nav a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+/* colores */
+/* 11 */
+/* fuentes */
+/* 7 */
+.section-decoration {
+  background-color: #f5f5dc;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=style.css.map */

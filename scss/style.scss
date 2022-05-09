@@ -1,0 +1,13 @@
+
+@import './base/listas';
+
+/*  */
+*{
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+@import './components/fuente';
+@import './components/header';
+@import './components/sectionindex';
