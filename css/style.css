@@ -81,6 +81,53 @@ nav a:hover:after {
   left: 0;
 }
 
+.footer-decoration {
+  background-color: #8C6C5A;
+}
+.footer-decoration a {
+  color: #D9BABA;
+  text-decoration: none;
+}
+.footer-decoration .logo__tittle {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  transition: 0.5s linear;
+}
+.footer-decoration .logo__tittle .ene {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 48px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #D99F9A;
+  animation-name: aislarene;
+  animation-duration: 2s;
+}
+.footer-decoration .logo__tittle:hover .logo__under__tittle {
+  color: #D99F9A;
+}
+@keyframes aislarene {
+  0% {
+    color: #D99F9A;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  50% {
+    color: #D99F9A;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  100% {
+    color: #D99F9A;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+.footer-decoration .logo__under__tittle {
+  font-family: "Sacramento", cursive;
+  font-size: 36px;
+}
+
 /* colores */
 /* 11 */
 /* fuentes */

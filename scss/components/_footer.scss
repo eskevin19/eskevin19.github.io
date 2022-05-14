@@ -1,0 +1,40 @@
+.footer-decoration{
+    background-color: nth($color, 8);
+    a{
+        color: nth($color, 4);
+        text-decoration: none;
+    }
+    .logo__tittle{
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: nth($size, 6);
+        font-weight: bold;
+        transition: .5s linear;
+        .ene{
+            font-family: 'Julius Sans One', sans-serif;
+            font-size: 48px;
+            
+            margin-right: 5px;
+            margin-left: 5px;
+            color: nth($color,  3);
+            animation-name: aislarene;
+            animation-duration: 2s;
+            
+        }
+        &:hover{
+            .logo__under__tittle{
+                color: nth($color,  3);
+            }
+        }
+        @keyframes aislarene {
+            0% {color: nth($color,  3); margin-right: 0px; margin-left: 0px;}
+            50% {color: nth($color,  3); margin-right: 3px; margin-left: 3px;}
+            100% {color: nth($color,  3); margin-right: 5px; margin-left: 5px;}
+        }
+        
+    }
+    .logo__under__tittle{
+        font-family: 'Sacramento', cursive;
+        font-size: nth($size, 5);
+    }
+    
+}
