@@ -4,6 +4,9 @@
 /* 7 */
 /*  */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Julius+Sans+One&family=Roboto+Condensed:ital,wght@1,300&family=Sacramento&display=swap");
+@import url("https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css");
 * {
   padding: 0;
   margin: 0;
@@ -135,6 +138,37 @@ nav a:hover:after {
 .section-decoration {
   background-color: #f5f5dc;
   font-size: 22px;
+}
+.section-decoration #info {
+  position: absolute;
+  overflow: hidden;
+  width: 300px;
+  height: 200px;
+  background-color: rgba(31, 31, 31, 0.9);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.section-decoration #imagen:hover div#info {
+  opacity: 1;
+}
+.section-decoration #headline {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-left: -75px;
+  margin-top: 15px;
+  transition: margin-left 0.3s;
+}
+.section-decoration #imagen:hover #headline {
+  margin-left: 115px;
+}
+.section-decoration #descripcion {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 200px;
+  transition: margin-top 0.4s;
+}
+.section-decoration #imagen:hover #descripcion {
+  margin-top: 75px;
 }
 
 /*# sourceMappingURL=style.css.map */

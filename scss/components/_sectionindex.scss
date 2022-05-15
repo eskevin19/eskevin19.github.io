@@ -2,4 +2,44 @@
 .section-decoration{
     background-color: nth($color, 11);
     font-size: nth($size, 4);
+    
+      
+      #info {
+        position:absolute;
+        overflow:hidden;
+        width: 300px;
+        height: 200px;
+        background-color: rgba(31, 31, 31, 0.9);
+        opacity:0;
+        transition: opacity 0.3s;
+      }
+      
+      #imagen:hover div#info {
+        opacity:1;
+      }
+      
+      #headline {
+        position: absolute;
+        font-size: 1.5rem;
+        margin-left: -75px;
+        margin-top: 15px;
+        transition: margin-left 0.3s;
+      }
+      
+      #imagen:hover #headline {
+        margin-left: 115px;
+      }
+      
+      #descripcion {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 200px;
+        transition: margin-top 0.4s;
+      }
+      
+      #imagen:hover #descripcion {
+        margin-top: 75px;
+      }
+      
+      
 }
